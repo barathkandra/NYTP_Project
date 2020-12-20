@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  NYTP_Task
 //
-//  Created by Banu Harshavardhan on 19/12/20.
+//  Created by Barath K on 19/12/20.
 //
 
 import UIKit

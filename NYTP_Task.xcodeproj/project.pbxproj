@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		13FE34E3258E03280017EAEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FE34E2258E03280017EAEE /* AppDelegate.swift */; };
 		13FE34E5258E03280017EAEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FE34E4258E03280017EAEE /* SceneDelegate.swift */; };
-		13FE34E7258E03280017EAEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FE34E6258E03280017EAEE /* ViewController.swift */; };
 		13FE34EA258E03280017EAEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13FE34E8258E03280017EAEE /* Main.storyboard */; };
 		13FE34EC258E03290017EAEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13FE34EB258E03290017EAEE /* Assets.xcassets */; };
 		13FE34EF258E03290017EAEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13FE34ED258E03290017EAEE /* LaunchScreen.storyboard */; };
 		13FE34FA258E03290017EAEE /* NYTP_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FE34F9258E03290017EAEE /* NYTP_TaskTests.swift */; };
 		13FE3505258E03290017EAEE /* NYTP_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FE3504258E03290017EAEE /* NYTP_TaskUITests.swift */; };
+		13FE351E258E06A80017EAEE /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FE351D258E06A80017EAEE /* APIManager.swift */; };
+		13FE3523258E06B80017EAEE /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FE3522258E06B80017EAEE /* ImageDownloader.swift */; };
+		13FE3528258E07FD0017EAEE /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FE3527258E07FD0017EAEE /* CollectionViewController.swift */; };
+		13FE3533258E08510017EAEE /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FE3532258E08510017EAEE /* CollectionViewCell.swift */; };
+		13FE3538258E08DF0017EAEE /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FE3537258E08DF0017EAEE /* ViewModel.swift */; };
+		13FE353D258E08EA0017EAEE /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FE353C258E08EA0017EAEE /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +43,6 @@
 		13FE34DF258E03280017EAEE /* NYTP_Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYTP_Task.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13FE34E2258E03280017EAEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13FE34E4258E03280017EAEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		13FE34E6258E03280017EAEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		13FE34E9258E03280017EAEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		13FE34EB258E03290017EAEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13FE34EE258E03290017EAEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		13FE3500258E03290017EAEE /* NYTP_TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYTP_TaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13FE3504258E03290017EAEE /* NYTP_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTP_TaskUITests.swift; sourceTree = "<group>"; };
 		13FE3506258E03290017EAEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13FE351D258E06A80017EAEE /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		13FE3522258E06B80017EAEE /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		13FE3527258E07FD0017EAEE /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		13FE3532258E08510017EAEE /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		13FE3537258E08DF0017EAEE /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		13FE353C258E08EA0017EAEE /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +111,12 @@
 			children = (
 				13FE34E2258E03280017EAEE /* AppDelegate.swift */,
 				13FE34E4258E03280017EAEE /* SceneDelegate.swift */,
-				13FE34E6258E03280017EAEE /* ViewController.swift */,
+				13FE351D258E06A80017EAEE /* APIManager.swift */,
+				13FE3522258E06B80017EAEE /* ImageDownloader.swift */,
+				13FE3537258E08DF0017EAEE /* ViewModel.swift */,
+				13FE353C258E08EA0017EAEE /* DataModel.swift */,
+				13FE3527258E07FD0017EAEE /* CollectionViewController.swift */,
+				13FE3532258E08510017EAEE /* CollectionViewCell.swift */,
 				13FE34E8258E03280017EAEE /* Main.storyboard */,
 				13FE34EB258E03290017EAEE /* Assets.xcassets */,
 				13FE34ED258E03290017EAEE /* LaunchScreen.storyboard */,
@@ -258,9 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13FE34E7258E03280017EAEE /* ViewController.swift in Sources */,
+				13FE351E258E06A80017EAEE /* APIManager.swift in Sources */,
+				13FE3523258E06B80017EAEE /* ImageDownloader.swift in Sources */,
+				13FE3533258E08510017EAEE /* CollectionViewCell.swift in Sources */,
 				13FE34E3258E03280017EAEE /* AppDelegate.swift in Sources */,
 				13FE34E5258E03280017EAEE /* SceneDelegate.swift in Sources */,
+				13FE353D258E08EA0017EAEE /* DataModel.swift in Sources */,
+				13FE3528258E07FD0017EAEE /* CollectionViewController.swift in Sources */,
+				13FE3538258E08DF0017EAEE /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
